@@ -1,50 +1,133 @@
-# Welcome to your Expo app 👋
+# 🔥 ReelPantry — Product Roadmap
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🥣 Project Summary
+ReelPantry solves a simple but frustrating problem: cooking from Instagram and TikTok reels is slow, clumsy, and distracting. Instead of rewatching clips, pausing to read captions, or losing your place in a crowded grocery store, ReelPantry turns any shared reel into a clean, editable recipe you can cook from—hands-free, step-by-step, and customizable with AI. It becomes a personal recipe library built from your real inspiration sources, letting you cook, shop, and personalize effortlessly, without the noise of social apps.
 
-## Get started
+---
 
-1. Install dependencies
+## ⭐ v1.0 — MVP  
+**Focus: Complete user loop — Share → Parse → Save → Cook.**
 
-   ```bash
-   npm install
-   ```
+- [ ] OAuth login (Google/Apple)  
+- [ ] Share reel link → AI parsing  
+- [ ] Pantry (user-owned + template/unparsed "Inspiration")  
+- [ ] Recipe Detail page  
+- [ ] Manual editing (basic)  
+- [ ] AI-assigned tags  
+- [ ] Cook Now (basic step-by-step)  
+- [ ] Lightly normalized DB  
+- [ ] Template → user fork behavior  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## ⭐ v1.5 — AI Edit (Standalone)  
+**Focus: Give the product its standout AI editing experience.**
 
-In the output, you'll find options to open the app in a
+- [ ] Full-screen AI Edit chat  
+- [ ] Draft → Preview → Save flow  
+- [ ] AI-driven structured JSON updates  
+- [ ] Auto tag updates  
+- [ ] Revert-to-template logic  
+- [ ] Forking logic on first save  
+- [ ] Version tracking/diff detection  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ⭐ v2.0 — Cook Now Upgrades  
+**Focus: A friction-free cooking experience.**
 
-## Get a fresh project
+- [ ] Large-text step-by-step mode  
+- [ ] Step grouping (prep vs cook)  
+- [ ] Ingredient check-off  
+- [ ] In-step ingredient callouts  
+- [ ] Optional voice commands (“next step”)  
+- [ ] Timers attached to steps  
+- [ ] Screen lock / auto-scroll prevention  
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## ⭐ v2.5 — Recipe Detail Upgrades  
+**Focus: A polished, premium recipe display.**
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- [ ] Serve scaling (0.5x, 2x)  
+- [ ] US/Metric toggle  
+- [ ] User notes  
+- [ ] Tag management UI  
+- [ ] Deeper manual edit tools  
+- [ ] Quick-add to shopping list  
+- [ ] Swipe between ingredients and steps  
+- [ ] Improved formatting (headers, spacing, icons)  
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## ⭐ v3.0 — Shopping List  
+**Focus: Take recipes as-is into the store.**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [ ] Create new shopping lists  
+- [ ] Add ingredients from recipe  
+- [ ] Add only missing items  
+- [ ] Add arbitrary custom items  
+- [ ] Check/uncheck flow  
+- [ ] Auto-detected ingredient quantities  
+- [ ] Multiple saved lists (optional)  
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## ⭐ v3.5 — Ingredient-Level AI Suggestions  
+**Focus: Quick substitutions without needing full AI Edit.**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [ ] AI suggestions for:
+  - [ ] lower calorie  
+  - [ ] higher protein  
+  - [ ] keto/mediterranean/soul-food swaps  
+  - [ ] cheaper alternatives  
+  - [ ] ingredient “families”  
+- [ ] Zero new DB tables  
+- [ ] On-demand AI inference  
+
+---
+
+## ⭐ v4.0 — Pantry Intelligence + Search  
+**Focus: Better discovery of the user’s own saved recipes.**
+
+- [ ] Search by ingredient  
+- [ ] Tag filters (multi-select)  
+- [ ] “Cook with what I have” matching  
+- [ ] Missing-ingredient scoring  
+- [ ] “Most cooked” / “Recently edited” sorting  
+- [ ] Improved pantry organization  
+- [ ] Default categories  
+
+---
+
+## ⭐ v4.5 — Cloud Sync Expansion  
+**Focus: Multi-device reliability + data control.**
+
+- [ ] Multi-device sync  
+- [ ] Data export  
+- [ ] Recipe version history  
+- [ ] Faster onboarding on new devices  
+- [ ] Low-data caching  
+
+---
+
+## ⭐ v5.0 — Monetization v1  
+**Focus: Gate the most-expensive features naturally.**
+
+- [ ] Monthly limits on AI parsing  
+- [ ] Unlimited AI Edit (paid)  
+- [ ] Advanced Cook Now (timers, voice) (paid)  
+- [ ] Enhanced shopping list features (paid)  
+- [ ] Nutrition-focused AI transforms (paid)  
+- [ ] Subscription billing (Stripe)  
+
+---
+
+## ⭐ v6.0 — Recipe Template Discovery (Late Stage)  
+**Focus: Only after users build a strong personal library.**
+
+- [ ] Search template recipes  
+- [ ] Browse popular templates  
+- [ ] Fork templates into pantry  
+- [ ] Trending tags  
+- [ ] Lightweight Explore page  
