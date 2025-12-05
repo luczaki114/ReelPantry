@@ -9,7 +9,9 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "format": "npx prettier --write app/ components/ constants/ hooks/"
+    "format": "npx prettier --write app/ components/ constants/ hooks/",
+    "generate-types": "npx supabase gen types typescript --project-id 'fkenquvhgimvedlkhgmy' --schema public > ./types/database.types.ts",
+    "deploy-functions": "npx supabase functions deploy"
   },
   "dependencies": {
     "@expo/html-elements": "^0.10.1",
