@@ -1,3 +1,5 @@
+> **Archived** — superseded by ReelPantry2 (C:\Users\lucza\Projects\ReelPantry2). Final state tagged `archive/expo-v0`.
+
 # 🔥 ReelPantry — Product Roadmap
 
 ## 🥣 Project Summary
