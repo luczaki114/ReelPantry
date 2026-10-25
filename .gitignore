@@ -44,3 +44,7 @@ app-example
 
 # IDEs
 .vscode
+
+# Cursor
+cursor.json
+instructions/
